@@ -11,12 +11,14 @@ public class FileUtil {
 		FileInputStream fis = new FileInputStream(file);
 		byte[] b = new byte[(int) file.length()];
 		fis.read(b);
+		fis.close();
 		return b;
 	}
 
 	public static void writeFile(File file, byte[] b) throws IOException {
 		FileOutputStream fos = new FileOutputStream(file);
 		fos.write(b);
+		fos.close();
 	}
 
 }
