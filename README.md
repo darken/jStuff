@@ -1,4 +1,8 @@
 Some java stuff
 ===============
 
-Just some java stuff I make.
+This is a personal java code repository, made to store code that I found interesting to write.
+
+jStuff contains code for:
++ String encoding conversion.
++ Elo rating system implementation.
